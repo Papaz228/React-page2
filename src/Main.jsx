@@ -1,4 +1,6 @@
 import React from 'react';
+import Hi from './Function';
+import ClassExample from './ClassExample';
 import { NavLink } from 'react-router-dom';
 import img_main from './images/img_main.jpg';
 import img_1 from './images/img_1.jpg';
@@ -15,6 +17,7 @@ function Main() {
   <div class="header">
     <div class="header_resize">
       <div class="logo">
+        
         <h1><NavLink to="/index"><span>Greeny</span>Box <small>Put your best slogan here </small></NavLink></h1>
       </div>
       <div class="menu">
@@ -40,6 +43,9 @@ function Main() {
     <div class="body_resize">
       <div class="left">
         <div class="resize_bg">
+        <Hi/>
+        <ClassExample name="Guest"/>
+        
           <h2> Welcome</h2>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. <br />
             Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque. Curabitur vel urna. In tristique orci porttitor ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. </p>
